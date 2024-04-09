@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/logo.png'
+import logo from '../assets/logo1.jpg'
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
@@ -65,7 +65,7 @@ const Home = () => {
 
 
         <div className='md:w-1/2 md:ml-48 md:mt-20 order-1 mt-8'>
-            <img src={logo} alt="" className='rounded-full md:w-[450px] md:h-[450px] w-[450px] h-[450px]' />
+            <img src={logo} alt="" className='rounded-full md:w-[450px] md:h-[450px] w-[450px] h-[450px] object-cover' />
         </div>
         </div>
      </div> 
