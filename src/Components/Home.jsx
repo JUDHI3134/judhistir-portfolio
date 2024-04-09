@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/logo1.jpg'
+import logo from '../assets/logo2.jpg'
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
