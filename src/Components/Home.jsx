@@ -30,7 +30,7 @@ const Home = () => {
         />
             </div>
             <br />
-            <p className='text-sm md:text-sm text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam corrupti earum non aliquid architecto sint a minima, obcaecati repudiandae! Maxime explicabo dignissimos consectetur eius quod. Nesciunt itaque, ab doloremque cum quia voluptates quasi illo dicta iure at. Soluta, exercitationem reiciendis.</p>
+            <p className='text-sm md:text-sm text-justify'>I am a Fresher/Student at Indira Gandhi Institute of Technology, Sarang and this is my portfolio app.I have Created a Blog app uging MERN(MongoDB, Expressjs, Reactjs, Nodejs) and some mini projects.I also worked at a Startup "Batoibhai" as a role of Frontend Developer.</p>
             <br />
             {/* Social media Icon */}
             <div className='flex flex-col items-center md:flex-row justify-between space-y-6 md:space-y-0'>
@@ -40,13 +40,13 @@ const Home = () => {
                 <a href="https://www.facebook.com" target='_balnk'>
                     <li><FaSquareFacebook className='text-2xl cursor-pointer'/></li>
                     </a>
-                    <a href="https://www.instagram.com" target='_balnk'>
+                    <a href="https://www.instagram.com/b.judhistir/?igsh=eGgwNHZ5bHBhaGpn" target='_balnk'>
                     <li><FaInstagram  className='text-2xl cursor-pointer'/></li>
                     </a>
                     <a href="https://www.youtube.com" target='_balnk'>
                     <li><FaYoutube  className='text-2xl cursor-pointer'/></li>
                     </a>
-                    <a href="https://www.linkedin.com" target='_balnk'>
+                    <a href="https://github.com/JUDHI3134" target='_balnk'>
                     <li><FaLinkedin  className='text-2xl cursor-pointer'/></li>
                     </a>
                 </ul>              
@@ -65,7 +65,7 @@ const Home = () => {
 
 
         <div className='md:w-1/2 md:ml-48 md:mt-20 order-1 mt-8'>
-            <img src={logo} alt="" className='rounded-full md:w-[450px] md:h-[450px] w-[450px] h-[450px] object-cover' />
+            <img src={logo} alt="" className='rounded-full md:w-[450px] md:h-[450px] w-[450px] h-[450px] object-cover shadow-2xl' />
         </div>
         </div>
      </div> 

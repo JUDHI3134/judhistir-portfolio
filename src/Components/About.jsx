@@ -10,16 +10,14 @@ const About = () => {
           <br />
           <h1 className='text-green-600 font-semibold text-xl'>Education& Training</h1>
           <span>
-          [Degree/Certification], [Institution], [Year] [Degree/Certification],
-          [Institution], [Year] [Relevant Course], [Platform/Institution],
-          [Year]
+          <p>Master's Degree(MCA)--At Indira Gandhi Institute of Technology,Sarang(2022-2024)</p>
+          <p>Graduation(Mathematics Honours)--Khaira College balasore(2016-2019)</p>
+          <p>+2 Science(2014-2016)--Simulia college, Markona</p>
           </span>
-          <br />
           <br />
           <h1 className='text-green-600 font-semibold text-xl'>Skills & Experties</h1>
           <span>
-          Proficient in [Programming Languages] Experienced with [Software
-          Tools/Technologies] Strong grasp of [Design Principles/Concepts]
+          Proficient in [C, C++, JAVA , PYTHON, JAVASCRIPT] Experienced with [MongoDB,Reactjs,Nodejs,Expressjs,Github,Postman for API testing,Visual Studio Code for Writting Code] and
           Excellent problem-solving skills Effective communicator and
           collaborator
           </span>
@@ -27,18 +25,14 @@ const About = () => {
           <br />
           <h1 className='text-green-600 font-semibold text-xl'>Professional Experience</h1>
           <span>
-          [Job Title], [Company/Organization], [Dates] [Brief description of
-          responsibilities and achievements] [Job Title],
-          [Company/Organization], [Dates] [Brief description of responsibilities
-          and achievements] [Freelance/Contract Work], [Client/Organization],
-          [Dates] [Brief description of projects and contributions]
+          I am a Fresher/Student at Indira Gandhi Institute of Technology, Sarang.I have Created a Blog app uging MERN(MongoDB,Expressjs,Reactjs,Nodejs) and a Ecommerce Website using MERN stack and some mini projects using HTML, CSS, Javascript and Reactjs.I also worked at a Startup Batoibhai as a Frontend Developer.I comeleted my Internship at Spark Foundation as a Full stack Web Developer 
           </span>
           <br />
           <br />
           <h1 className='text-green-600 font-semibold text-xl'>Mission Statement</h1>
           <p>
           My mission is to leverage my skills and creativity to deliver
-          innovative [Your Field] solutions that exceed client expectations and
+          innovative web solutions that exceed client expectations and
           contribute positively to the digital landscape. I am committed to
           continuous learning and growth, always seeking new challenges and
           opportunities to expand my horizons.

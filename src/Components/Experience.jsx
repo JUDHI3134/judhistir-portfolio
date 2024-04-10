@@ -4,9 +4,15 @@ import java from '../assets/java.png'
 import javascript from '../assets/javascript.png'
 import express from '../assets/express.png'
 import node from '../assets/node.png'
+import c from '../assets/c.png'
+import cpp from '../assets/cpp.png'
 import oracle from '../assets/oracle.png'
+import tailwind from '../assets/tailwind.png'
+import wordpress from '../assets/wordpress.png'
+import github from '../assets/github.png'
 import reactjs from '../assets/reactjs.png'
 import spring from '../assets/spring.png'
+import bootstrap from '../assets/bootstrap.png'
 import css from '../assets/css.jpg'
 import mongodb from '../assets/mongodb.jpg'
 import springBoot from '../assets/springBoot.jpg'
@@ -66,18 +72,48 @@ const Experience = () => {
             logo:oracle,
             name:"Oracle"
         },
+        {
+            id:11,
+            logo:c,
+            name:"C Language"
+        },
+        {
+            id:12,
+            logo:cpp,
+            name:"C++"
+        },
+        {
+            id:13,
+            logo:tailwind,
+            name:"Tailwind Css"
+        },
+        {
+            id:14,
+            logo:bootstrap,
+            name:"Bootstrap"
+        },
+        {
+            id:15,
+            logo:github,
+            name:"Github"
+        },
+        {
+            id:16,
+            logo:wordpress,
+            name:"Wordpress"
+        },
     ]
 
   return (
     <div name="Experience" className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-16'>
       <div>
-        <h1 className='text-3xl font-bold mb-5'>Experience</h1>
+        <h1 className='text-3xl font-bold mb-5'>Experience/Skills</h1>
         <p className=''>
             I have one and half year Experience in below Technology
         </p>
         <div className='grid grid-cols-2 md:grid-cols-5 gap-7 my-3'>
             {cardItem.map(({id,logo,name})=>(
-                <div className='flex flex-col items-center justify-center shadow-md rounded-full border-[2px] md:w-[200px] md:h-[200px] p-1 cursor-pointer hover:scale-110 duration-300' key={id}>
+                <div className='flex flex-col items-center justify-center shadow-md rounded-full border-[2px] md:w-[190px] md:h-[190px] p-1 cursor-pointer hover:scale-110 duration-300' key={id}>
                   <img src={logo} className='w-[150px] rounded-full' alt="" />
                   <div>
                     <div>{name}</div>
